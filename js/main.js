@@ -1,5 +1,5 @@
 document.querySelector('.control-buttons span').onclick = function() {
-    let userName = prompt(`What's your naaaaam :`) ;
+    let userName = prompt(`What's your naaaam :`) ;
     if (userName == null || userName== "") {
         document.querySelector('.name span').innerHTML = "Unkowen" ;
     } else {
